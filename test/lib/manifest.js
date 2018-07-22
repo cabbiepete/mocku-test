@@ -1,6 +1,4 @@
-import { existsSync } from "fs";
-
-// Cannot mock node built in libraries with mocku currently
+// NB: mockup makes all modules act like ES6 i.e. default object or named imports
 // https://github.com/deepsweet/mocku/issues/4
 describe('lib/manifest', () => {
   let stubs;
