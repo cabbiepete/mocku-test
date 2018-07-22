@@ -1,0 +1,29 @@
+{
+  "name": "mocku-test",
+  "version": "1.0.0",
+  "description": "Repo to demonstrate mocku usage/issues etc.",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --require esm -b --recursive test/bootstrap.test.js test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabbiepete/mocku-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cabbiepete/mocku-test/issues"
+  },
+  "homepage": "https://github.com/cabbiepete/mocku-test#readme",
+  "dependencies": {
+    "esm": "^3.0.72"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "mocku": "^0.2.1",
+    "sinon": "^6.1.4"
+  }
+}
