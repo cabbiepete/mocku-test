@@ -7,7 +7,7 @@ jobs:
   build-node-8:
     docker:
       # specify the version you desire here
-      - image: circleci/node:8
+      - image: circleci/node:16
 
     working_directory: ~/repo
 
@@ -44,7 +44,7 @@ jobs:
   build-node-10:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10
+      - image: circleci/node:16
 
     working_directory: ~/repo
 
